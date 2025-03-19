@@ -55,6 +55,10 @@ python gesture_recognition.py
 3. **Arduino Communication**: The script sends `'1'` (LED ON) or `'0'` (LED OFF) via serial.
 4. **WebSocket Update**: The server updates the UI in real-time.
 ## Added a simple html,css based webpage to show result
+  To access the page,go to http://127.0.0.1:5000/ after running 
+  ```sh
+  python iot_server.py
+```
 ## Troubleshooting
 - Ensure the correct **COM port** is used in `gesture_recognition.py`.
 - If the LED does not respond, check Arduino serial communication.
